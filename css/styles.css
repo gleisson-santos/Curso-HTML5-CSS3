@@ -77,3 +77,46 @@ p, .title-small {
     border-radius: 10px;
     border: 2px solid blue;
 }
+
+#center {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#line {
+    text-orientation: line-through;
+}
+
+#sem-underline {
+    text-decoration: none;
+}
+
+.inline {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 5px;    
+    display: inline-block;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(32, 255, 181);
+    margin: 5px;    
+    display: block;
+}
+
+#none {
+    display: none;
+
+}
+
