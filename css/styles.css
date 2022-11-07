@@ -1,122 +1,24 @@
-/* Integração*/
+/* Geral*/
 
-h1 {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
 }
 
-h3 {
-    color:  green;
+body {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#title {
-    color: blueviolet;
+/* Apresentação do Evento*/
+#about-container{
+    flex: 1.4;
+    padding: 2rem 4rem;
 }
 
-/* background por ID*/
-.text {
-    color: blueviolet;
+/* Formulari o*/
+#form-container{
+    flex: 1;
 }
-
-/* background por Classe*/
-.background {
-
-    background-color: red;
-    color: blue;
-    font-size: 30px;
-}
-
-/* Dois elementos com uma regra*/
-
-p, .title-small {
-    color: darkorchid;
-}
-
-.title-small {
-    font-size: 25px;
-}
-
-
-/* Setando Background image*/
-.background-image {
-    background-image: url("../img/01.jpg");
-    padding: 20px;
-    color: white;
-}
-
-#width-heigth {
-    width: 200px;
-    height: 100px;
-    background-color: black;
-}
-
-#padding {
-    background-color: magenta;
-    padding: 10px;
-}
-
-#margin {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    margin: 20px;
-}
-
-#border {
-    border: 3px solid red;
-    width: 100px;
-    height: 100px;
-    padding: 40px;
-    margin: 20px;
-    text-align: center;
-}
-
-#border-radius {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    border-radius: 10px;
-    border: 2px solid blue;
-}
-
-#center {
-    text-align: center;
-}
-
-p {
-    font-size: 20px;
-    
-}
-
-#underline {
-    text-decoration: underline;
-}
-
-#line {
-    text-orientation: line-through;
-}
-
-#sem-underline {
-    text-decoration: none;
-}
-
-.inline {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    margin: 5px;    
-    display: inline-block;
-}
-
-.block {
-    width: 100px;
-    height: 100px;
-    background-color: rgb(32, 255, 181);
-    margin: 5px;    
-    display: block;
-}
-
-#none {
-    display: none;
-
-}
-
