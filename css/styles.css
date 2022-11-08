@@ -76,7 +76,7 @@ body {
 
 .user-card img {
     width: 150px;
-    border-radius: 45%;
+    border-radius: 10%;
     margin-bottom: 1rem;
     align-items: center;
 }
@@ -96,7 +96,7 @@ body {
     flex: 1;
     background-image: url("../img/pattern.png");
     background-size: cover;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 #form-inner {
@@ -135,6 +135,7 @@ body {
     padding: 0.8rem 0.6rem;
     border: none;
     border-radius: 3px;
+    
 }
 
 #email {
@@ -143,7 +144,7 @@ body {
 
 #register-form input[type="submit"] {
     background-color: transparent;
-    color: #fff;
+    color: rgb(0, 0, 0);
     border: 2px solid #fff;
     font-size: 1.1rem;
     font-weight: bold;
@@ -154,7 +155,7 @@ body {
 
 #register-form input[type="submit"]:hover {
     background-color: #fff;
-    color: #8246f1;
+    color: #000000;
     
 }
 
@@ -162,6 +163,7 @@ body {
 #benefits {
     text-align: left;
     align-self: start;
+    color: black;
 }
 
 #benefits h4 {
